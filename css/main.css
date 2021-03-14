@@ -1,5 +1,8 @@
-html * {
-  background-color: #fdf6e3;
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
